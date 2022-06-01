@@ -16,6 +16,8 @@ public class CalculatorClient {
 			System.out.println("a - b ="+cl.kurang(x,y));
 			System.out.println("a x b ="+cl.kali(x,y));
 			System.out.println("a / b ="+cl.bagi(x,y));
+			System.out.println("a ^ b ="+cl.pangkat(x,y));
+			System.out.println("(a + b) / 2 ="+cl.hitung(x,y));
 		}
 		catch (Exception e) {
 			System.out.println("Received Exception:");
